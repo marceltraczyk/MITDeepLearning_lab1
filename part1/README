@@ -1,1 +1,17 @@
+This repository contains a practical implementation of the first lab from the 
+MIT Introduction to Deep Learning course, focusing on the fundamental building 
+blocks of PyTorch. The notebook demonstrates how to create and manipulate 
+tensors of various dimensions—ranging from 0D scalars to 4D tensors used in 
+image processing—and how to perform slicing and mathematical operations 
+within computational graphs. 
 
+It explores building neural networks by subclassing `torch.nn.Module`, 
+illustrating both custom parameter initialization for a basic dense layer 
+and the use of built-in components like `nn.Linear` with Sigmoid activations. 
+Additionally, the project covers the implementation of flexible forward 
+passes that can alter network behavior dynamically during execution. 
+
+Finally, it provides a hands-on introduction to automatic differentiation 
+using PyTorch's Autograd engine (`requires_grad` and `.backward()`) and 
+applies it to optimize a simple loss function via Gradient Descent, 
+visualizing the optimization process and convergence using Matplotlib.

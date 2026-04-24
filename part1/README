@@ -1,4 +1,4 @@
-This repository contains a practical implementation of the first lab from the 
+This part contains a practical implementation of the first lab from the 
 MIT Introduction to Deep Learning course, focusing on the fundamental building 
 blocks of PyTorch. The notebook demonstrates how to create and manipulate 
 tensors of various dimensions—ranging from 0D scalars to 4D tensors used in 
